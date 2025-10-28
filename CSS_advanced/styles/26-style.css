@@ -270,8 +270,10 @@ ul.row {
 }
 .card-testimonial .card-avatar {
     border-radius: 50%;
-    width: 10%;
-    height: 10%;
+    /* set the width to 10x the root element */
+    width: 10rem;
+    /* set the height to 10x the root element */
+    height: 10rem;
 }
 .card-testimonial .card-quote cite {
     display: block;
