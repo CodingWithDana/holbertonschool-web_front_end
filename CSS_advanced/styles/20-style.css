@@ -189,7 +189,8 @@ ul.row {
 .row::after {
     content: "";
     display: table;
-    float: none;
+    /* do not allow any floating elements on either side */
+    clear: both;
 }
 
 .col-1-3 {
