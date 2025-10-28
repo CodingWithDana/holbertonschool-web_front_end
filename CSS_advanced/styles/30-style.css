@@ -379,7 +379,7 @@ ul.row {
     left: 0;
     content: "";
 }
-.card-work:hover .cart-title {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
